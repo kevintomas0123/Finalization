@@ -1,0 +1,86 @@
+body {
+    padding-bottom: 3rem;
+    background-image: url('../images/zwart.png');
+  }
+
+  .navbar-brand{
+      font-size: 2rem;
+      font-family: 'Oswald', sans-serif;
+  }
+
+h1{
+    color:darkturquoise;
+    font-family: 'Permanent Marker', cursive;
+    font-size:6.5rem;
+    padding:0;
+    size:100%;
+    margin:5rem 0 0 0;
+ }
+
+.btn-primary {
+    color:lightgray;
+    background-color:#181818;
+    border-color:#181818;
+    margin-top: 4rem;
+    margin-bottom:2rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+   
+}
+
+.jumbotron-fluid{
+    background-color: darkturquoise;
+    height:30rem;
+    margin:5rem 0 0 0;
+    filter:brightness(90%);
+   
+}
+
+
+
+#description{
+   position: relative;
+   font-size:26px;
+   margin:0 0 0 0;
+   padding:0 0 0 0;
+}
+
+p{
+    color:lightgray;
+    font-family: 'Oswald', sans-serif;
+    margin:0;
+    padding:0;
+    text-align: center;
+    margin-left: 4rem;
+
+   
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-left: 4rem;
+}
+#saveButton{
+    color:darkturquoise;
+}
+
+@media only screen and (max-width: 400px) {
+    p{
+        font-size:23px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    .btn-primary {
+        margin:0 0 0 0;
+    }
+}
+
