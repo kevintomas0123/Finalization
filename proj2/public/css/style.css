@@ -1,0 +1,21 @@
+body {
+    padding-bottom: 3rem;
+    background-image: url('../images/zwart.png');
+  }
+
+p{
+    color:white;
+}
+
+h1.rfExample{
+    color:darkturquoise;
+    font-family: "Bebas Neue", Arial;
+    font-size: 8rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color:darkturquoise;
+    border-color:darkturquoise;
+    filter: brightness(90%);
+}
