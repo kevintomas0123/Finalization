@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-  <link rel="shortcut icon" href=""/>
+  <link rel="shortcut icon" href="" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Acme|Allerta|Anton|Archivo+Black|Bitter|Bungee+Inline|Bungee+Shade|Cantata+One|Coda+Caption:800|Days+One|Holtwood+One+SC|IM+Fell+DW+Pica+SC|Inknut+Antiqua|Knewave|Permanent+Marker|Rubik+Mono+One|Special+Elite|Vidaloka|Volkhov" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Allerta|Anton|Archivo+Black|Bitter|Bungee+Inline|Bungee+Shade|Cantata+One|Coda+Caption:800|Days+One|Holtwood+One+SC|IM+Fell+DW+Pica+SC|Inknut+Antiqua|Knewave|Permanent+Marker|Rubik+Mono+One|Special+Elite|Vidaloka|Volkhov"
+    rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
       <a class="navbar-brand" style="color:white" href="index.html">Project2</a>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" style="color:white" href="about.html">About Us</a>
+          <a class="nav-link" style="color:white" href="#">Data</a>
         </li>
       </ul>
     </div>
@@ -31,14 +32,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-            <h1 class="headLine">Financial Analysis Made Easy</h1>
+          <h1 class="headLine">Financial Analysis Made Easy</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat esse,
             doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam voluptatem.</p>
         </div>
       </div>
     </div>
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Start Now!</button>
+    <button type="button" style="margin-left: 95px" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Start Now!</button>
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
@@ -54,7 +55,7 @@
               <!-- Nav tabs -->
               <ul class="nav nav-tabs" role="tablist">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#basicInfo" role="tab" data-toggle="tab">Basic Info</a>
+                  <a class="nav-link active" href="#basicInfo" role="tab" data-toggle="tab">Basic</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#incomeStatement" role="tab" data-toggle="tab">Income Statement</a>
@@ -63,7 +64,7 @@
                   <a class="nav-link" href="#assets" role="tab" data-toggle="tab">Assets</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#liabilities" role="tab" data-toggle="tab">Liabilities</a>
+                  <a class="nav-link" href="#liabilities" role="tab" data-toggle="tab">Liabilities/OE</a>
                 </li>
               </ul>
 
@@ -111,7 +112,7 @@
                     <input type="text" class="form-control" id="interestEx">
                   </div>
                   <div class="col-md-8 form-group">
-                    <label for="nOi">Non-Operating Income (Loss):</label>
+                    <label for="nOi">Non-operating Income (Loss):</label>
                     <input type="text" class="form-control" id="nOi">
                   </div>
                   <div class="col-md-8 form-group">
@@ -130,11 +131,11 @@
 
                 <div role="tabpanel" class="tab-pane fade" id="assets">
                   <div class="col-md-8 form-group">
-                    <label for="operatingCash">Operating Cash and Market. Sec.:</label>
+                    <label for="operatingCash">Operating Cash and Equivalents:</label>
                     <input type="text" class="form-control" id="operatingCash">
                   </div>
                   <div class="col-md-8 form-group">
-                    <label for="receivables">Receivables:</label>
+                    <label for="receivables">Accounts Receivable:</label>
                     <input type="text" class="form-control" id="receivables">
                   </div>
                   <div class="col-md-8 form-group">
@@ -150,12 +151,9 @@
                     <input type="text" class="form-control" id="pPe">
                   </div>
                   <div class="col-md-8 form-group">
-                    <label for="gIi">Goodwill, Intangibles, and Investments:</label>
+                    <label for="gIi">Goodwill, Intangibles and Investments:</label>
                     <input type="text" class="form-control" id="gIi">
                   </div>
-
-
-
                   <div class="col-md-8 form-group">
                     <label for="otherAssets">Other Assets:</label>
                     <input type="text" class="form-control" id="otherAssets">
@@ -207,12 +205,12 @@
                     <label for="picc">Paid in Common Capital:</label>
                     <input type="text" class="form-control" id="picc">
                   </div>
-              
+
                   <div class="col-md-8 form-group">
                     <label for="retainedEarnings">Retained Earnings:</label>
                     <input type="text" class="form-control" id="retainedEarnings">
                   </div>
-              
+
                 </div>
               </div>
             </div>

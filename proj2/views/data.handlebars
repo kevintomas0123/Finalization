@@ -1,5 +1,46 @@
 {{#each data}}
-  <p>Company: {{companyName}}</p>
+<p>
+  <h2>BASIC</h2>
+</p>
+<p>Company: {{companyName}}</p>
+<p>Shares Outstanding: {{sharesOut}}</p>
+<p>Year: {{year}}</p>
+<p>
+  <h2>INCOME STATEMENT</h2>
+</p>
+<p>Revenue: {{sales}} </p>
+<p>Cost of Goods Sold: {{cogs}} </p>
+<p>R&amp;D: {{rdExp}} </p>
+<p>Selling, General and Administrative: {{sga}} </p>
+<p>Depreciation and Amortization: {{depAmo}} </p>
+<p>Interest Expense: {{intExp}} </p>
+<p>Non-operating Income: {{nonOpInc}} </p>
+<p>Income Tax: {{incTax}} </p>
+<p>Other Income: {{otherInc}} </p>
+<p>Provision for Income Taxes: {{proIncTaxes}} </p>
+<p>
+  <h2>ASSETS</h2>
+</p>
+<p>Operating Cash and Equivalents: {{opCashSec}} </p>
+<p>Accounts Receivable: {{receiv}} </p>
+<p>Inventories: {{inven}} </p>
+<p>Other Current Assets: {{otherCA}} </p>
+<p>PP&amp;E (net): {{ppe}} </p>
+<p>Goodwill, Intangibles and Investments: {{goodwill}} </p>
+<p>Other Assets: {{otherA}} </p>
+<p>
+  <h2>LIABILITIES</h2>
+</p>
+<p>Current Debt: {{currDebt}} </p>
+<p>Accounts Payable: {{payable}} </p>
+<p>Income Taxes Payable: {{incTaxPay}} </p>
+<p>Other Current Liabilities: {{otherCurrLiab}} </p>
+<p>Long Term Debt: {{ltd}} </p>
+<p>Other Liabilities: {{otherLiab}} </p>
+<p>Deferred Taxes: {{defTaxes}} </p>
+<p>Minority Interest: {{minInterest}} </p>
+<p>Preferred Stock: {{preStock}} </p>
+<p>Paid in Common Capital: {{picc}} </p>
+<p>Retained Earnings: {{retEarn}} </p>
 
-  <hr>
-{{/each}}
+<hr> {{/each}}
